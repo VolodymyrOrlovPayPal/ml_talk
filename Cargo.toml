@@ -1,0 +1,17 @@
+[package]
+name = "ml_talk"
+version = "0.1.0"
+authors = ["VolodymyrOrlovPayPal <vorlov@paypal.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rand = "0.7.2"
+
+[dev-dependencies]
+criterion = "0.3.0"
+
+[[bench]]
+name = "cholesky_bench"
+harness = false
